@@ -1,0 +1,27 @@
+#mainview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+// Background colors
+
+.pink {
+  background-color: #F16F6D;
+}
+
+.light {
+  // background-color: green;
+  background-color: #F3F2F2;
+}
+
+.darkgray {
+  background-color: #636363;
+}
+
+.turquoise {
+  background-color: #50E3C2;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="291px" height="104px" viewBox="0 0 291 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hello-D" transform="translate(-416.000000, -461.000000)">
+            <g id="Group-4" transform="translate(415.000000, 457.000000)">
+                <g id="Group-3">
+                    <path d="M170.5,33 L286.5,33" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M7.5,79 L123.5,79" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="square"></path>
+                    <text id="sand" font-family="Gotham-Bold, Gotham" font-size="64" font-weight="bold" letter-spacing="1.5" fill="#F8E71C">
+                        <tspan x="0" y="51">sand</tspan>
+                    </text>
+                    <text id="berg" font-family="Gotham-Bold, Gotham" font-size="64" font-weight="bold" letter-spacing="1.5" fill="#F8E71C">
+                        <tspan x="139" y="97">berg</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

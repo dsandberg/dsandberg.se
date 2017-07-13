@@ -1,0 +1,79 @@
+@import './sass/normal';
+
+// Pages
+@import './sass/mainview';
+@import './sass/stuff';
+@import './sass/me';
+@import './sass/sayhi';
+
+
+@import './sass/menu';
+@import './sass/pagination';
+@import './sass/header';
+
+// html, body {
+
+//   a {
+//     color: #FE08A4;
+//     text-decoration: none;
+//     font-weight: 400;
+//     &:hover {
+//       color: yellow;
+//     }
+//     h1 {
+//       color: white;
+//     }
+//   }
+
+// }
+
+html, body {
+  font-family: arial;
+  font-size: 0.9em;
+  text-align: center;
+  color: white;
+  // background-color: #F16F6D;    
+}
+button {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+// h1, h2, h3, h4 {
+//   text-transform: capitalize;
+// }
+
+//   .wrapper {
+//     width: 80%;
+//     margin: 30px auto;
+
+//     nav {
+//       display: flex;
+//       justify-content: center;
+
+//       .navLink {
+//         border: 2px #FE08A4 solid;
+//         border-radius: 25px;
+//         width: 40px;
+//         height: 40px;
+//         margin: 10px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         color: #FE08A4;
+//         font-size: 1.2em;
+//         transition: all 0.2s ease-in-out;
+//         &:hover {
+//           border: 2px yellow solid;
+//           color: yellow;
+//         }
+//         .active {
+//           border: 2px yellow solid;
+//           color: yellow;
+//         }
+//     }
+//   }
+//   text-transform: capitalize;
+// }

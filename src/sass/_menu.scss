@@ -1,0 +1,110 @@
+.menu-wrapper {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 101;
+
+  .menu-icon {
+    div {
+      width: 30px;
+      height: 4px;
+      background-color: white;
+      margin: 6px 0;
+    }
+  }
+  &:hover {
+    .menu-icon {
+    cursor: pointer;
+      div {
+        background-color: yellow;
+      }
+    }
+  }
+
+  nav {
+    // display: none;
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    &.active {
+      display: block;
+    }
+    li {
+      list-style: none;
+      // opacity: 0;
+      text-align: right;
+      padding: 5px;
+      a {
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        white-space: nowrap;
+
+        &.active {
+          color: yellow;
+        }
+
+        &:hover {
+          color: yellow;
+        }
+
+        &::after { 
+          content: " -";
+        }
+      }
+    }
+  }
+
+  &.dark {
+    .menu-icon {
+      div {
+        background-color: #6D6D6D;
+      }
+    }
+    nav {
+      li {
+        a {
+          color: #6D6D6D;
+
+          &.active {
+            color: #50E3C2;
+          }
+
+          &:hover {
+            color: #50E3C2;
+          }
+        }
+      }
+    }
+    &:hover {
+      .menu-icon {
+        cursor: pointer;
+      div {
+        background-color: #50E3C2;
+      }
+    }
+    }
+  }
+}
+
+.example-enter {
+  opacity: 0.01;
+  margin-right: -50px;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  margin-right: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  margin-right: 50px;
+  transition: all 200ms ease-in-out;
+}
